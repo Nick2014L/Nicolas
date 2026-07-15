@@ -6,7 +6,7 @@ button{
     background-color: #151515;
     color: #ffffff;
     padding: 7px;
-    width: 57px;
+    width: 65px;
     cursor: pointer;
 }
 input{
@@ -16,7 +16,7 @@ input{
     color: #e0e0e0;
     outline: none;
     padding: 7px;
-    width: calc(100% - 95px);
+    width: calc(100% - 100px);
 }
 body{
     background-color: #151515;
@@ -29,6 +29,7 @@ body,*{
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: 1rem;
 }
 #img{
     width: 100px;
