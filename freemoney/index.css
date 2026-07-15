@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+body, * {
+      font-family: "Archivo Black", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+}
+body {
+    gap: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(#ffffff, #fe0b95);
+}
+a {
+    text-decoration: none;
+}
+#FR{
+    padding: 20px 50px;
+    background-image: linear-gradient(to left, #65e953, #166e25);
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 50px;
+    transition: all 0.5s ease;
+    border: 10px solid #000000;
+}
+#FV{
+    padding: 20px 50px;
+    background-image: linear-gradient(to left, #00bbff, #3700ff);
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 50px;
+    transition: all 0.5s ease;
+    border: 10px solid #000000;
+}
+#FM{
+    padding: 20px 50px;
+    background-image: linear-gradient(to left, #d9ff03, #ff9d00);
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 50px;
+    transition: all 0.5s ease;
+    border: 10px solid #000000;
+}
+a:hover {
+    padding: 60px !important;
+    font-size: 57.5px !important;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+#Money{
+    width: 400px;
+}

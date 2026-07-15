@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+body, * {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#rbutton {
+    padding: 50px;
+    background-image: linear-gradient(to left, #65e953, #166e25);
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 50px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.5s ease;
+    border: 10px solid #000000;
+}
+#vbutton{
+    padding: 50px;
+    background-image: linear-gradient(to left, #00bbff, #3700ff);
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 50px;
+    transition: all 0.5s ease;
+    border: 10px solid #000000;
+}
+#mbutton{
+    padding: 50px;
+    background-image: linear-gradient(to left, #d9ff03, #ff9d00);
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 50px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.5s ease;
+    border: 10px solid #000000;
+}
+#rbody {
+    gap: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(#ffffff, #91eda8);
+}
+#vbody{
+    gap: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(#ffffff, #6ad5ff);
+}
+#mbody{
+    gap: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(#ffffff, #ffcc00);
+}
+#rbutton:hover, #mbutton:hover, #vbutton:hover {
+    padding: 60px;
+    font-size: 57.5px;
+    cursor: pointer;
+}
+#robux{
+    width: 250px;
+    animation: bounce 2s infinite alternate ease;
+}
+#menu-icon{
+  width: 40px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 150;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#menu-icon:hover{
+  border-width: 5px;
+  border-color:#ffffff;
+  border: 3px solid #ffffff;
+}
+#hand-container {
+    display: flex;
+    gap: 450px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+#hand-container *{
+    margin: 0;
+}
+#hand1{
+    rotate: -45deg;
+    animation: bounce 0.7s infinite alternate ease;
+}
+#hand2{
+    rotate: 45deg;
+    animation: bounce1 0.7s infinite alternate ease;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes bounce1 {
+  from {
+    transform: scaleX(-1) translateY(0);
+  }
+  to {
+    transform: scaleX(-1) translateY(-100px);
+  }
+}
+#menu{
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  width: 300px;
+  background-color: #000000;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  translate: -100%;
+  transition: all 0.5s ease;
+  padding: 18px;
+  color: #ffffff;
+  box-sizing: border-box;
+  gap: 50px;
+}
+#menu *{
+  margin:0;
+}
+#menu h1{
+  align-self: center;
+}
+a{
+  color: white;
+}
+.input{
+  height: 50px;
+  padding-left: 10px;
+  font-size: 1.75em;
+  border-radius: 10px;
+  border: 5px solid #000000;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: none;
+  width:400px;
+  background-color: white;
+}
+.input2{
+  height: 50px;
+  padding-left: 10px;
+  font-size: 1.75em;
+  border-radius: 10px;
+  border: 5px solid #000000;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: none;
+  width:400px;
+  background-color: white;
+  flex-direction: row;
+  align-items: center;
+}
+.home-icon{
+  width: 35px;
+  position: fixed;
+  left: 70px;
+  top: 20px;
+  z-index: 0;
+  box-sizing: border-box;
+}
+#inner-input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 100%;
+  font-size: 1em;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 90%;
+}
+#inner-input:focus, #inner-input:focus-visible {
+  border: none;
+  outline: none;
+}
+#hide{
+  height:80%;
+  width: 10%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
