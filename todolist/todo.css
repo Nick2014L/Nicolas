@@ -23,7 +23,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 50px;
+    gap: 30px;
 }
 body,*{
     font-family: "Press Start 2P", system-ui;
@@ -33,7 +33,7 @@ body,*{
 }
 #img{
     width: 100px;
-    padding-left: 42vw;
+    align-self: center;
 }
 #list{
     display: flex;
