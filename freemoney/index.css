@@ -45,7 +45,7 @@ a {
     transition: all 0.5s ease;
     border: 10px solid #000000;
 }
-a:hover {
+.button:hover {
     padding: 60px !important;
     font-size: 57.5px !important;
 }
